@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!---
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<script>
+  tailwind.config = {
+    darkMode:'class'
+  }
+</script>
+--->
+</head>
+
+<body class="bg-gray-900 text-white scroll-smooth">
+  
+  <nav class="flex px-6 md:px-15 py-8 text-blue-400 font-medium text-sm md:text-2xl  items-center">
+    
+    <ul class="flex items-center justify-between w-screen">
+      <li><a href="#" class="text-md md:text-3xl"><span class="underline focus:text-blue-500">Abhi.dev</span>🚀</a></li>
+      <li><a href="#project"class="hover:underline">Projects</a></li>
+      <li><a href="#contact"class="hover:underline">Contact</a></li>
+      <li><a href="#footer" class="hover:underline">Footer</a></li>
+    </ul>
+  </nav>
+  
+  <div class="h-130 mt-0 md:mt-18 w-90vw px-10 py-10 md:px-8 md:py-20 md:flex items-center">
+    
+    <div>
+    <h2 class="text-3xl md:text-5xl font-semibold">Abhinay Borkar</h2>
+    
+    <h3 class="text-xl md:text-3xl text-green-400 font-medium">I'm a Web Developer</h3>
+    
+    <p class="max-w-130 text-justify mt-3 md:mt-8 text-sm md:text-xl">
+      I'm passionate about building responsive, user-friendly websites that blend clean design with functional code. I specialize in front-end development using HTML, CSS, and Tailwind CSS, and I enjoy creating intuitive interfaces that work seamlessly across devices. With every project, I aim to write clean, maintainable code and constantly learn new technologies to stay updated in the fast-paced world of web development.
+    </p>
+    </div>
+    
+    <div class="rounded-full h-35 w-35 mt-6 ml-18 md:h-70 md:w-70 md:ml-26 overflow-hidden">
+      
+       <img src="main1.jpg" alt="profile" class="h-full w-full object-cover" />
+      
+    </div>
+    
+  </div>
+  
+  <div class="flex items-center gap-3 md:gap-5 mx-10 my-5">
+    <button class="bg-green-400 border border-green-400 hover:bg-transparent hover:border-gray-500 rounded-full font-semibold px-3 py-2 text-sm md:text-lg md:px-6 md:py-3">Download cv</button>
+    
+    <a href="https://github.com/off-abhi-1287"><img class="invert h-8 md:h-13 hover:scale-105" src="/bxl-github.svg" alt="github"></a>
+    
+    <a href="https://www.linkedin.com/in/abhinay-borkar-425522336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="invert h-8 md:h-13 hover:scale-105" src="bxl-linkedin-square.svg" alt="linkedin"></a>
+  </div>
+  
+  <!--Projects card section-->
+  
+  <h2 class="mx-10 my-8 text-2xl md:text-3xl mt-15 md:mt-18 font-bold" id="project">Projects</h2>
+  
+  <div class="px-10 max-w-5xl max-h-5xl grid grid-cols-1 md:grid md:grid-cols-3 gap-5 ">
+    
+    <div class="border rounded-lg p-3 md:p-5 flex flex-col justify-between">
+    <h2 class="text-lg md:text-2xl font-semibold">To-Do List App</h2>
+    <p class="text-gray-200 text-sm my-3 md:text-lg text- justify">A simple and responsive web app to manage daily tasks.
+Features include adding, completing, and deleting tasks.  
+Built using HTML, CSS, and JavaScript.</p>
+
+<a href="https://off-abhi-1287.github.io/ToDo-List/" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="bg-blue-400 hover:bg-blue-500 px-2 py-1 md:px-5 md:py-2 text-sm md:text-lg rounded-sm md:rounded-lg text-center">
+  View
+</a>
+    
+    </div>
+    
+    
+    <div class="border rounded-lg  p-3 md:p-5 flex flex-col justify-between">
+    <h2 class="text-lg md:text-2xl font-semibold">Project 2 Title</h2>
+    <p class="text-gray-200 text-sm my-3 md:text-lg text-justify">A sample responsive web project showcasing basic UI components and layout structure — built using HTML, Tailwind CSS, and JavaScript.</p>
+    
+    <a href="#" 
+   class="bg-blue-400 hover:bg-blue-500 px-2 py-1 md:px-5 md:py-2 text-sm md:text-lg rounded-sm md:rounded-lg text-center">
+  View
+</a>
+    </div>
+    
+    
+    <div class="border rounded-lg p-3 md:p-5 flex flex-col justify-between">
+    <h2 class="text-lg md:text-2xl font-semibold">Project 3 Title</h2>
+    <p class="text-gray-200 text-sm my-3 md:text-lg text-justify">A sample responsive web project showcasing basic UI components and layout structure — built using HTML, Tailwind CSS, and JavaScript.</p>
+    
+    <a href="#" 
+   class="bg-blue-400 hover:bg-blue-500 px-2 py-1 md:px-5 md:py-2 text-sm md:text-lg rounded-sm md:rounded-lg text-center">
+  View
+</a>
+    </div>
+    
+    
+    <div class="border rounded-lg p-3 md:p-5 flex flex-col justify-between">
+    <h2 class="text-lg md:text-2xl font-semibold">Project 4 Title</h2>
+    <p class="text-gray-200 text-sm my-3 md:text-lg text-justify">A sample responsive web project showcasing basic UI components and layout structure — built using HTML, Tailwind CSS, and JavaScript.</p>
+    
+    <a href="#" 
+    
+   class="bg-blue-400 hover:bg-blue-500 px-2 py-1 md:px-5 md:py-2 text-sm md:text-lg rounded-sm md:rounded-lg text-center">
+  View
+</a>
+    </div>
+    
+    <div class="border rounded-lg p-3 md:p-5 flex flex-col justify-between">
+    <h2 class="text-lg md:text-2xl font-semibold">Project 5 Title</h2>
+    <p class="text-gray-200 text-sm my-3 md:text-lg text-justify">A sample responsive web project showcasing basic UI components and layout structure — built using HTML, Tailwind CSS, and JavaScript.</p>
+    
+    <a href="#" 
+    
+   class="bg-blue-400 hover:bg-blue-500 px-2 py-1 md:px-5 md:py-2 text-sm md:text-lg rounded-sm md:rounded-lg text-center">
+  View
+</a>
+    </div>
+    
+    
+  </div>
+  
+  
+  <!--Skills section--->
+  <div class="mt-10">
+    <h2 class="mx-10 my-5 text-2xl md:text-3xl md:mt-18 font-bold">Skills</h2>
+    
+    <div class="px-10 flex items-center gap-3 md:gap-5 w-full flex-wrap text-sm md:text-md">
+      
+      <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 md:px-4 md:py-2 rounded-full ">HTML</button>
+      
+      <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 md:px-4 md:py-2 rounded-full">CSS</button>
+      
+      <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 md:px-4 md:py-2 rounded-full">JavaScript</button>
+      
+      <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 md:px-4 md:py-2 rounded-full">Java basics</button>
+      
+      <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 md:px-4 md:py-2 rounded-full">Python basics</button>
+      
+    </div>
+    
+  </div>
+  
+  <!-- Contact--->
+   <div class="w-full my-10">
+     <div class="w-full max-w-md">
+      <form class="w-full space-y-4">
+    <h2 class="mx-10 my-5 text-2xl md:text-3xl md:mt-18 font-bold" id="contact">Contact me</h2>
+    
+        
+        <div class="flex flex-col gap-1 justify-center px-10">
+          <label for="name" class="text-sm md:text-md">Name</label>
+          <input id="name" type="text"  placeholder="Your name " class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none"/>
+        </div>
+        
+        <div class="flex flex-col gap-1 justify-center px-10">
+          <label for="email" class="text-sm md:text-md">Email</label>
+          <input id="email" type="email" placeholder="xyz@gmail.com" class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none" />
+        </div>
+        
+        <div class="flex flex-col gap-1 justify-center px-10">
+          <label for="desc" class="text-sm md:text-md">Your Message</label>
+          <textarea rows="5" cols="8" class="border rounded-lg border-gray-600 focus:ring-2 ring-blue-500 outline-none"></textarea>
+        </div>
+        
+        <button class="bg-blue-400 hover:bg-transparent hover:border hover:border-gray-500 text-white ml-10 rounded-md px-3 py-1">Submit</button>
+        
+      </form>
+    </div>
+    
+    </div>
+  
+  <footer id="footer" class="bg-gray-800 p-5">
+    
+    <div class="flex flex-col items-center justify-center">
+      
+      <h3 class="text-white font-bold md:text-lg text-md">Connect with me</h3>
+      
+      <div class="space-x-3 py-2">
+      <a href="https://github.com/off-abhi-1287" class="text-underline text-sm md:text-md underline underline-offset-4 text-blue-400 hover:font-semibold">Github</a>
+      
+      <a href="https://www.linkedin.com/in/abhinay-borkar-425522336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="underline underline-offset-4 text-sm text-blue-400 md:text-md hover:font-semibold">Linkedin</a>
+      
+      
+      </div>
+      <p class="text-sm text-gray-400 mt-2">&copy; 2025 Abhinay Borkar. All rights reserved.</p>
+    </div>
+    
+  </footer>
+  
+  
+</body>
+</html>
