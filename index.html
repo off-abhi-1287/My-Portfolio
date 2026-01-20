@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,14 @@
   <title>Abhinay Borkar | Web Developer Portfolio</title>
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+  <!---
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+--->
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='45' font-size='28' fill='%23fff'>&lt;/&gt;</text></svg>">
 
   <style>
     html {
@@ -19,9 +27,9 @@
 <body class="bg-gray-900 text-white">
   
   <!--NavBar--->
-  <nav class="flex px-6 md:px-15 py-8 text-blue-400 font-medium text-md md:text-lg  items-center">
+  <nav class="flex px-4 md:px-15 py-6 text-blue-400 font-medium text-sm md:text-md items-center">
     <ul class="flex items-center justify-between w-screen">
-      <li><a href="#" class="text-md md:text-lg"><span class="underline focus:text-blue-500">Abhi.dev</span>🚀</a></li>
+      <li><a href="#" class="text-md md:text-lg"><span class="underline hover:text-blue-500">Abhi.dev</span>🚀</a></li>
       <li><a href="#project" class="hover:underline">Projects</a></li>
       <li><a href="#contact" class="hover:underline">Contact</a></li>
       <li><a href="#footer" class="hover:underline">Footer</a></li>
@@ -30,22 +38,22 @@
 
 <!--Intro--->
 
-  <div class="my-10 mx-auto flex flex-col md:flex-row items-center md:justify-between px-7 md:px-12">
+  <div class="my-10 mx-auto flex flex-col md:flex-row items-center md:justify-between md: items-center px-7 md:px-12">
     
     <div data-aos="fade-right" class="max-w-[90vw] md:max-w-[55vw] lg:max-w-[70vw]">
       <h2 class="text-3xl font-bold">Abhinay Borkar</h2>
-      <h3 class="text-xl font-semibold text-green-400">I'm a Web Developer</h3>
+      <h3 class="text-xl font-semibold text-green-400 mb-[25px]">I'm a Web Developer</h3>
       
       
-      <p class="text-justify text-md">
+      <p class="text-justify text-sm md:text-md">
         
-        I'm passionate about building responsive, user-friendly websites that blend clean design with functional code. I specialize in front-end development using HTML, CSS, and Tailwind CSS, and I enjoy creating intuitive interfaces that work seamlessly across devices. With every project, I aim to write clean, maintainable code and constantly learn new technologies to stay updated in the fast-paced world of web development.
+        I’m a passionate web developer who enjoys building clean, responsive websites. I focus on writing functional, maintainable code and love learning new tools and technologies to grow my skills.
       </p>
     </div>
 
 <!--Profile pic--->
     <div data-aos="fade-left" class="h-[11rem] w-[11rem] md:h-50 md:w-50 rounded-full flex items-center">
-      <img src="main1.jpg" alt="profile" class="h-full w-full rounded-full object-cover" />
+      <img src="images/main1.jpg" alt="profile" class="h-full w-full rounded-full object-cover" />
     </div>
   </div>
 
@@ -55,18 +63,90 @@
     </button>
 
     <a href="https://github.com/off-abhi-1287">
-      <img class="invert h-8 md:h-13 hover:scale-105" src="bxl-github.svg" alt="github">
+      <img class="invert h-8 md:h-13 hover:scale-105" src="images/bxl-github.svg" alt="github">
     </a>
 
     <a href="https://www.linkedin.com/in/abhinay-borkar-425522336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-      <img class="invert h-8 md:h-13 hover:scale-105" src="bxl-linkedin-square.svg" alt="linkedin">
+      <img class="invert h-8 md:h-13 hover:scale-105" src="images/bxl-linkedin-square.svg" alt="linkedin">
     </a>
   </div>
 
+
+
+  <!--About Me Section--->
+  <section data-aos="fade-up" class="p-7 md:px-10 md:py-7">
+    
+    <div>
+      <h2 class="my-2 text-2xl md:text-3xl md:mt-8 font-bold">About Me</h2>
+      
+      <p class="text-sm md:text-md text-justify">
+        
+        I'm a Computer Engineering student currently in my 3rd year (6th semester) at Bajaj Chandrapur Polytechnic. I enjoy building responsive websites and learning how the web works. I have a good understanding of HTML, CSS, and Tailwind CSS, and I'm exploring JavaScript more deeply. I also know the basics of Python and Java. I love solving problems and building small projects to improve my skills. My goal is to become a skilled developer and keep learning new technologies.
+        
+      </p>
+      
+    </div>
+  </section>
+  
+    <!-- Skills section -->
+  <div data-aos="fade-up" class="mt-8">
+    <h2 class="mx-8 my-5 text-2xl md:text-3xl md:mt-18 font-bold">Skills</h2>
+    <div class="px-10 flex items-center gap-3 md:gap-5 w-full flex-wrap text-sm md:text-md">
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">HTML</button>
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">CSS</button>
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">JavaScript</button>
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Tailwind CSS</button>
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Java basics</button>
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Python basics</button>
+      
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Node.js</button>
+      
+      <button class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">MongoDB</button>
+    </div>
+  </div>
+
+
+<!-- What I Do Section -->
+<section data-aos="fade-up" class="mt-8 p-8 md:px-10">
+  <h2 class="text-2xl md:text-3xl font-bold mb-4">What I Do ?</h2>
+  <ul class="list-decimal space-y-4 text-sm md:text-md text-gray-300 pl-7">
+    <li>
+      <p class="font-semibold text-white">Responsive Design</p>
+      <p>I build websites that work smoothly across all screen sizes using HTML, CSS, and Tailwind CSS.</p>
+    </li>
+    <li>
+      <p class="font-semibold text-white">JavaScript Development</p>
+      <p>I’m exploring JavaScript deeply and using it to add interactivity into my projects.</p>
+    </li>
+    <li>
+      <p class="font-semibold text-white">UI Practice Projects</p>
+      <p>I enjoy building projects  to improve my layout and design skills.</p>
+    </li>
+    <li>
+      <p class="font-semibold text-white">Continuous Learning</p>
+      <p>I keep learning new tools and techniques to become a better developer. Currently focusing on mastering JavaScript and working on small, real-world projects.</p>
+    </li>
+  </ul>
+</section>
+
+<!---Timeline Section--->
+ <section data-aos="fade-up" class="mt-2 p-8 md:p-10">
+   
+   <div class="space-y-1">
+      <h2 class="my-2 text-2xl md:text-3xl md:mt-8 font-bold">Timeline</h2>
+      
+      <p class="text-md md:text-lg">📚 Diploma in Computer Engineering</p>
+      <p class="textd md:text-lg">🏫 College: Bajaj Chandrapur Polytechnic</p>
+      <p class="text-md md:text-lg">🌆 City: Chandrapur, Maharashtra</p>
+      <p class="text-md md:text-lg">🗓️ Duration: 2023-2026(Currently in Final Year, 6th semester)</p>
+   </div>
+   
+</section>
+
   <!-- Projects Section -->
-  <section class="p-7 md:p-10" id="project">
-    <h2 class="text-2xl md:text-3xl font-bold mb-2 md:mb-5">Projects</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3">
+  <section class="mt-2 p-8 md:p-10" id="project">
+    <h2 data-aos="fade-up" class="text-2xl md:text-3xl font-bold mb-2 md:mb-5">Projects</h2>
+    <div class="mt-7 grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3">
 
       <!-- Project Card 1 -->
       <div data-aos="zoom-in-up" class="border border-white text-white rounded-xl shadow-sm p-5 md:p-6 flex flex-col justify-between w-full hover:shadow-lg hover:shadow-gray-800/50 hover:scale-105 transition delay-150 ease-in-out-duration-300">
@@ -94,20 +174,20 @@
 
       <!--Project Card 2--->
       <div data-aos="zoom-in-up" class="border border-white text-white rounded-xl shadow-sm p-5 md:p-6 flex flex-col justify-between w-full hover:shadow-lg hover:shadow-gray-800/50 hover:scale-105 transition delay-150 ease-in-out-duration-300">
-        <h2 class="text-xl md:text-2xl font-semibold mb-2">Weather App UI Design (Dummy)</h2>
+        <h2 class="text-xl md:text-2xl font-semibold mb-2">Task Manager API</h2>
         <p class="text-sm md:text-base text-gray-300 mb-4">
-          This is a sample UI built for learning layout and responsiveness for practicing Tailwind CSS.
-          Built using HTML, Tailwind CSS. 
+          This is a backend API in JavaScript for task management(CRUD operations)
+          Built using Node.js
         </p>
                <!--Btn for source code---->
         <div class="flex justify-between">
-        <button onclick="window.open('#')" class="self-start bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base transition duration-300">
+        <button onclick="window.open('https://github.com/off-abhi-1287/Task-manager-API')" class="self-start bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base transition duration-300">
           Source Code
         </button>
         
         <!--btn for deployed link--->
         
-        <button onclick="window.open('#', '_blank')" class="self-start bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base transition duration-300">
+        <button onclick="window.open('https://task-manager-api-26ge.onrender.com/', '_blank')" class="self-start bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm md:text-base transition duration-300">
           View Project
         </button>
         
@@ -181,41 +261,26 @@
       </div>
   </section>
 
-  <!-- Skills section -->
-  <div class="mt-10">
-    <h2 data-aos="fade-in" class="mx-10 my-5 text-2xl md:text-3xl md:mt-18 font-bold">Skills</h2>
-    <div class="px-10 flex items-center gap-3 md:gap-5 w-full flex-wrap text-sm md:text-md">
-      <button data-aos="zoom-in" class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">HTML</button>
-      <button data-aos="zoom-in" class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">CSS</button>
-      <button data-aos="zoom-in" class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">JavaScript</button>
-      <button data-aos="zoom-in" class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Java basics</button>
-      <button data-aos="zoom-in" class="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 px-3 py-1 md:px-4 md:py-2 rounded-full">Python basics</button>
-    </div>
-  </div>
-
   <!-- Contact section -->
   <div data-aos="fade-up" class="w-full my-10">
     <div class="w-full max-w-md mx-auto">
-      <form action="https://api.web3forms.com/submit" method="POST" class="w-full space-y-4">
- 
+      <form class="w-full space-y-4">
         <h2 class="mx-10 my-5 text-2xl md:text-3xl md:mt-18 font-bold" id="contact">Contact me</h2>
+        
 
         <div class="flex flex-col gap-1 justify-center px-10">
-          
-          <input type="hidden" name="access_key" value="0f0a98b5-9f75-44e8-adda-f370696ece3f">
-          
           <label for="name" class="text-sm md:text-md">Name</label>
-          <input id="name" type="text" name="name" placeholder="Your name" class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none" />
+          <input id="name" type="text" placeholder="Your name" required class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none text-gray-800 "/>
         </div>
 
         <div class="flex flex-col gap-1 justify-center px-10">
           <label for="email" class="text-sm md:text-md">Email</label>
-          <input id="email" type="email" placeholder="xyz@gmail.com" name="email" class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none" />
+          <input id="email" type="email" placeholder="xyz@gmail.com" required class="w-full border border-gray-600 rounded-lg p-3 focus:ring-2 ring-blue-500 outline-none text-gray-800" />
         </div>
 
         <div class="flex flex-col gap-1 justify-center px-10">
           <label for="desc" class="text-sm md:text-md">Your Message</label>
-          <textarea rows="5" cols="8" placeholder="Message" name="message" class="border p-2 rounded-lg border-gray-600 focus:ring-2 ring-blue-500 outline-none"></textarea>
+          <textarea rows="5" cols="8" placeholder="Message" required class="border p-2 rounded-lg border-gray-600 focus:ring-2 ring-blue-500 outline-none text-gray-800"></textarea>
         </div>
 
         <button type="submit" class="bg-blue-500 hover:bg-transparent hover:border hover:border-gray-500 transition ease-in-out-duration-300 text-white ml-10 rounded-md px-3 py-1">
@@ -225,12 +290,14 @@
     </div>
   </div>
 
+<!---Footer Section--->
   <footer id="footer" class="bg-gray-800 p-5">
     <div class="flex flex-col items-center justify-center">
       <h3 class="text-white font-bold md:text-lg text-md">Connect with me</h3>
       <div class="space-x-3 py-2">
-        <a href="https://github.com/off-abhi-1287" class="underline underline-offset-4 text-blue-400 text-sm md:text-md hover:font-semibold">Github</a>
-        <a href="https://www.linkedin.com/in/abhinay-borkar-425522336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="underline underline-offset-4 text-sm text-blue-400 md:text-md hover:font-semibold">Linkedin</a>
+        <a href="https://github.com/off-abhi-1287" class="underline underline-offset-4 text-blue-400 text-sm md:text-md hover:font-semibold text:blue-400">Github</a>
+        <a href="https://www.linkedin.com/in/abhinay-borkar-425522336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="underline underline-offset-4 text-sm text-blue-400 md:text-md hover:font-semibold">LinkedIn</a>
+         <a href="mailto:abhinayborkar1287@gmail.com" class="underline underline-offset-4 text-sm te xt-blue-400 md:text-md hover:font-semibold text-blue-400">Email</a>
       </div>
       <p class="text-sm text-gray-400 mt-2">&copy; 2025 Abhinay Borkar. All rights reserved.</p>
     </div>
@@ -239,9 +306,10 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 800,
+      duration: 1000,
+      delay:100,
       once: true
     });
   </script>
 </body>
-  </html>
+</html>
